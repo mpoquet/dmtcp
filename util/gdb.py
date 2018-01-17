@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 # Here are some gdb commands written in python using the gdb Python API
 # described here:
