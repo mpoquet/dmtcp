@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
 # make some heavy bash computations.
 TWO=$((1+1))

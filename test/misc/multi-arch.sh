@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 set -v
 
 # This will test the multi-arch functionality in a semi-automated way.

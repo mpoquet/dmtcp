@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 #this script tells the total size of all the ckpt files on teracluster
 #it takes no args and expects a file 'hosts' to contain a list of nodes
 

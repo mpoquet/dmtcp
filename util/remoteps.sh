@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 #this script list the processes owned by user on all nodes of teracluster 
 #it takes no args and expects a file 'hosts' to contain a list of nodes
 

@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/usr/bin/env sh
 # Configuration validation subroutine script.
 #   Copyright 1992-2014 Free Software Foundation, Inc.
 

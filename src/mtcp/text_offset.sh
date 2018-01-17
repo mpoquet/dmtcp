@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
 if test "$1" = ""; then
   echo Usage:  $0 BINARY_FILE
