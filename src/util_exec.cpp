@@ -193,7 +193,7 @@ Util::elfType(const char *pathname, bool *isElf, bool *is32bitElf)
 static string
 ld_linux_so_path(int version, bool is32bitElf = false)
 {
-  char buf[80];
+  char buf[128];
 
 #if (defined(__x86_64__) || defined(__aarch64__)) && !defined(CONFIG_M32)
   if (is32bitElf) {
