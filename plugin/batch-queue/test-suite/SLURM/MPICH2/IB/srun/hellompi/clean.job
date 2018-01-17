@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Put your SLURM options here
 #SBATCH --time=00:15:00           # put proper time of reservation here
 #SBATCH --nodes=2                 # number of nodes

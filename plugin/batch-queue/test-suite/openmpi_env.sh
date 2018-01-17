@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # OpenMPI
 OMPI_PATH="/home/research/artpol/openmpi_build"

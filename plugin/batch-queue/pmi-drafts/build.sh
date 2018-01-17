@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 export PATH="/user/artempol/openmpi-build/bin/":$PATH
 export LD_LIBRARY_PATH="/user/artempol/openmpi-build/lib/":$LD_LIBRARY_PATH

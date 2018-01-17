@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Written by Gene Cooperman, Northeastern University
 # WISHLIST:  that something like this goes into a future version of gdb

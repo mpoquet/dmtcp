@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 usage_str='USAGE:
   dmtcp_restart_wrapper.sh [OPTIONS] restart_script_path
