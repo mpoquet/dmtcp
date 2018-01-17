@@ -57,7 +57,7 @@ MANPAGES=dmtcp.1.gz dmtcp_coordinator.1.gz dmtcp_command.1.gz dmtcp_launch.1.gz 
 # Macros TEST and XTERM_E used on command line by check1, check2, ...:
 #   make TEST=readline XTERM_E="xterm -e" check-readline
 
-default: display-build-env add-git-hooks build
+default: display-build-env build
 
 mkdirs:
 	$(MKDIR_P) $(targetdir)/bin
