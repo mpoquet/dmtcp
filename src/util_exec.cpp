@@ -306,7 +306,7 @@ void Util::patchArgvIfSetuid(const char* filename, char *const origArgv[],
                                   jalib::Filesystem::BaseName(realFilename).c_str());
 
   snprintf(cpCmdBuf, sizeof(cpCmdBuf),
-           "/bin/cp %s %s", realFilename, newFilename);
+           "cp %s %s", realFilename, newFilename);
 
   // Remove any stale copy, just in case it's not right.
   JASSERT(unlink(newFilename) == 0 || errno == ENOENT) (newFilename);
