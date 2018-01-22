@@ -702,7 +702,7 @@ p2=str(randint(2000,10000))
 p3=str(randint(2000,10000))
 
 # Use uniform user shell.  Else apps like script have different subprocesses.
-os.environ["SHELL"]="/bin/bash"
+os.environ["SHELL"]="bash"
 
 runTest("dmtcp1",        1, ["./test/dmtcp1"])
 
@@ -925,7 +925,7 @@ if HAS_PYTHON == "yes":
   runTest("python",      1, ["/usr/bin/python"])
 
 os.environ['DMTCP_GZIP'] = "0"
-runTest("bash",        2, ["/bin/bash --norc -c 'ls; sleep 30; ls'"])
+runTest("bash",        2, ["bash --norc -c 'ls; sleep 30; ls'"])
 os.environ['DMTCP_GZIP'] = GZIP
 
 if HAS_DASH == "yes":

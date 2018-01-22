@@ -114,11 +114,11 @@ start_coordinator # -i 120 ... <put dmtcp coordinator options here>
 # 2. Restart application
 ################################################################################
 
-/bin/bash ./dmtcp_restart_script.sh -h $DMTCP_COORD_HOST -p $DMTCP_COORD_PORT
+bash ./dmtcp_restart_script.sh -h $DMTCP_COORD_HOST -p $DMTCP_COORD_PORT
 
 ###############################################################################
 # If you use the Stampede supercomputer at Texas Advanced Computing Center
 # (TACC), add the --hostfile option:
-# /bin/bash ./dmtcp_restart_script.sh -h $DMTCP_COORD_HOST -p $DMTCP_COORD_PORT\
+# bash ./dmtcp_restart_script.sh -h $DMTCP_COORD_HOST -p $DMTCP_COORD_PORT\
 #                                     --hostfile $HOSTFILE
 ###############################################################################

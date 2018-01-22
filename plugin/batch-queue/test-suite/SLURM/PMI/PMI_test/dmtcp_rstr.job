@@ -90,7 +90,7 @@ date
 
 rm -Rf LOGS/*
 
-/bin/bash dmtcp_restart_script.sh -h $DMTCP_COORD_HOST  -p $DMTCP_COORD_PORT
+bash dmtcp_restart_script.sh -h $DMTCP_COORD_HOST  -p $DMTCP_COORD_PORT
 
 echo "Finish"
 date 

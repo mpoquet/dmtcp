@@ -144,11 +144,11 @@ do
 
   # start the dmtcp_restart_script in background
   if [ -z $restart_script_args ];then
-    echo "launching: /bin/bash $new_restart_script &"
-    /bin/bash $new_restart_script &
+    echo "launching: bash $new_restart_script &"
+    bash $new_restart_script &
   else
-    echo "launching: /bin/bash $new_restart_script $restart_script_args"
-    /bin/bash $new_restart_script $restart_script_args &
+    echo "launching: bash $new_restart_script $restart_script_args"
+    bash $new_restart_script $restart_script_args &
   fi
 
   cpid=$!

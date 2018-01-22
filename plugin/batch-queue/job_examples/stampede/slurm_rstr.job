@@ -72,8 +72,8 @@ export PATH="$DMTCP_PATH/bin/:$PATH"
 
 start_coordinator # -i 120 ... <put dmtcp coordinator options here>
 
-echo "/bin/bash ./dmtcp_restart_script.sh -h $DMTCP_COORD_HOST -p $DMTCP_COORD_PORT --hostfile $HOSTFILE"
+echo "bash ./dmtcp_restart_script.sh -h $DMTCP_COORD_HOST -p $DMTCP_COORD_PORT --hostfile $HOSTFILE"
 
-/bin/bash ./dmtcp_restart_script.sh -h $DMTCP_COORD_HOST -p $DMTCP_COORD_PORT --hostfile $HOSTFILE
+bash ./dmtcp_restart_script.sh -h $DMTCP_COORD_HOST -p $DMTCP_COORD_PORT --hostfile $HOSTFILE
 
 rm $HOSTFILE
