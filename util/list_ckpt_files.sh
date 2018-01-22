@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 #this script was used to free up space after testing on teracluster
 #it also wipes out debugging logs
 #it takes no args and expects a file 'hosts' to contain a list of nodes

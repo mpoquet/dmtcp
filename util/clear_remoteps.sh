@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 #this script can be used to kill all user processes running on the remote nodes.
 #it takes no args and expects a file 'hosts' to contain a list of nodes
 

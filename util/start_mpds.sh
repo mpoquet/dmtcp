@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 #this script was used to initialize a ring of MPDs on teracluster
 #the mpd started scripts were too annoying
 #it expects a file 'hosts' to list nodes in the cluster

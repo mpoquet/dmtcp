@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
 if test "$1" = ""; then
   echo 'Usage:  readdmtcp.sh <CKPT IMAGE>'
