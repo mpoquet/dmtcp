@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 export CFLAGS="$CFLAGS -I/opt/slurm-2.6.5/include/slurm/ "
 export LDFLAGS="$LDFLAGS -L/opt/slurm-2.6.5/lib/ -lpmi "

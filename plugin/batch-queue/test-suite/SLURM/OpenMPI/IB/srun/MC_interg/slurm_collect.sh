@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
   if [ -d ./LOGS ] && [ ${SLURM_LOCALID} -eq "0" ]; then
     TDIR="$SLURMTMPDIR"

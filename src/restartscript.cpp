@@ -39,7 +39,7 @@ namespace dmtcp {
 namespace RestartScript {
 
 static const char* header =
-  "#!/bin/bash\n\n"
+  "#!/usr/bin/env bash\n\n"
   "set -m # turn on job control\n\n"
   "#This script launches all the restarts in the background.\n"
   "#Suggestions for editing:\n"

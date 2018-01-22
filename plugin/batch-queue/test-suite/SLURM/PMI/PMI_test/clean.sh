@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 rm -Rf dmtcp_restart* ckpt_* 0_[cr]*
 rm -Rf LOGS/*

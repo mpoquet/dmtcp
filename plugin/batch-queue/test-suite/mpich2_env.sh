@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # MPICH2 settings
 MPICH2_PATH="/usr/mpi/gcc/mvapich2-1.9"

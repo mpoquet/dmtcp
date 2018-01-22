@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # DMTCP settings
 DMTCP_PATH="/home/research/artpol/sandbox"

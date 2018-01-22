@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Put your SLURM options here
 #SBATCH --partition=debug         # change to proper partition name or remove
 #SBATCH --time=00:15:00           # put proper time of reservation here

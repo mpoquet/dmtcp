@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Copy this script to the DMTCP root director.
 # Then modify this script first for your purposes.

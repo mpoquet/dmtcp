@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Put your SLURM options here
 #SBATCH --time=00:15:00           # put proper time of reservation here
 #SBATCH --nodes=2                 # number of nodes
@@ -39,7 +39,7 @@ start_coordinator()
     # Create dmtcp_command wrapper for easy communication with coordinator
     p=`cat $fname`
     chmod +x $fname
-    echo "#!/bin/bash" > $fname
+    echo "#!/usr/bin/env bash" > $fname
     echo >> $fname
     echo "export PATH=$PATH" >> $fname
     echo "export DMTCP_COORD_HOST=$h" >> $fname
