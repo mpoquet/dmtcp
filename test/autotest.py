@@ -922,7 +922,7 @@ if HAS_READLINE == "yes":
 runTest("perl",          1, ["/usr/bin/perl"])
 
 if HAS_PYTHON == "yes":
-  runTest("python",      1, ["/usr/bin/python"])
+  runTest("python",      1, ["python"])
 
 os.environ['DMTCP_GZIP'] = "0"
 runTest("bash",        2, ["bash --norc -c 'ls; sleep 30; ls'"])
