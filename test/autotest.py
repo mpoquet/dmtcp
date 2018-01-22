@@ -919,7 +919,7 @@ os.environ['DMTCP_GZIP'] = GZIP
 if HAS_READLINE == "yes":
   runTest("readline",    1,  ["./test/readline"])
 
-runTest("perl",          1, ["/usr/bin/perl"])
+runTest("perl",          1, ["perl"])
 
 if HAS_PYTHON == "yes":
   runTest("python",      1, ["python"])
