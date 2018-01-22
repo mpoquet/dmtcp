@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # This file is a hack, meant to overcome the disabling of the logic for
 #   'add-symbol-file libdmtcp.so' in mtcp/mtcp_restart.c
 # If that logic is restored, this file should be deleted. 
